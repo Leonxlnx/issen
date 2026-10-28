@@ -1,0 +1,8 @@
+node_modules/
+out/
+ref/
+sfx_downloads/
+_rejected_sfx/
+audio/_premix.wav
+audio/_graph.txt
+*.log

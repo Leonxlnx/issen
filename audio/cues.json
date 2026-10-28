@@ -1,0 +1,1135 @@
+{
+  "duration": 13,
+  "master": {
+    "lufs": -14,
+    "tp": -1,
+    "lra": 20,
+    "tailFade": 0.7,
+    "filters": "highpass=f=32:poles=2,lowshelf=f=95:g=-4,acompressor=threshold=0.3:ratio=2:attack=20:release=150:makeup=1,alimiter=limit=0.708:attack=2:release=60:level=disabled"
+  },
+  "cues": [
+    {
+      "id": "music",
+      "file": "audio/sfx/music__opengameart_tadsamurai.wav",
+      "at": 0,
+      "trim": 1.395,
+      "dur": 7.942,
+      "fadeIn": 0.15,
+      "level": -15,
+      "env": [
+        [
+          0,
+          -4
+        ],
+        [
+          2.1,
+          -2
+        ],
+        [
+          2.3,
+          -12
+        ],
+        [
+          3.1,
+          -10
+        ],
+        [
+          3.6,
+          -4
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          5.4,
+          -1
+        ],
+        [
+          5.445,
+          -14
+        ],
+        [
+          5.52,
+          -30
+        ],
+        [
+          6.3,
+          -30
+        ],
+        [
+          6.42,
+          -9
+        ],
+        [
+          7.6,
+          -7
+        ],
+        [
+          7.844,
+          -7
+        ],
+        [
+          7.942,
+          -60
+        ]
+      ]
+    },
+    {
+      "id": "wind",
+      "file": "audio/sfx/wind_amb__freesound_454092.mp3",
+      "at": 0,
+      "trim": 0,
+      "dur": 13,
+      "fadeIn": 0.4,
+      "level": -27,
+      "env": [
+        [
+          0,
+          0
+        ],
+        [
+          2.1,
+          0
+        ],
+        [
+          2.3,
+          -6
+        ],
+        [
+          3.9,
+          -6
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          5.4,
+          -3
+        ],
+        [
+          5.84,
+          -8
+        ],
+        [
+          5.87,
+          -40
+        ],
+        [
+          5.995,
+          -40
+        ],
+        [
+          6,
+          -10
+        ],
+        [
+          7.9,
+          -10
+        ],
+        [
+          8.068,
+          -2
+        ],
+        [
+          9.5,
+          -2
+        ],
+        [
+          9.7,
+          -9
+        ],
+        [
+          10.4,
+          -9
+        ],
+        [
+          10.6,
+          -1
+        ],
+        [
+          11.305,
+          -1
+        ],
+        [
+          11.335,
+          -21
+        ],
+        [
+          11.4,
+          -21
+        ],
+        [
+          11.42,
+          -1
+        ],
+        [
+          12.7,
+          -1
+        ],
+        [
+          13,
+          -1
+        ]
+      ]
+    },
+    {
+      "id": "wind_howl",
+      "file": "audio/sfx/wind_amb__freesound_117611.mp3",
+      "at": 0,
+      "trim": 3,
+      "dur": 13,
+      "fadeIn": 1.2,
+      "level": -27,
+      "env": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2.4,
+          -40
+        ],
+        [
+          7.9,
+          -40
+        ],
+        [
+          8.321,
+          -2
+        ],
+        [
+          9.416,
+          -4
+        ],
+        [
+          9.8,
+          -40
+        ],
+        [
+          11.2,
+          -40
+        ],
+        [
+          11.8,
+          -6
+        ],
+        [
+          13,
+          -6
+        ]
+      ]
+    },
+    {
+      "id": "drone",
+      "file": "audio/sfx/drone__freesound_402439.mp3",
+      "at": 0,
+      "trim": 2,
+      "dur": 13,
+      "fadeIn": 1,
+      "level": -33,
+      "env": [
+        [
+          0,
+          0
+        ],
+        [
+          2.2,
+          2
+        ],
+        [
+          3.9,
+          2
+        ],
+        [
+          4.1,
+          -6
+        ],
+        [
+          5.8,
+          -5.5
+        ],
+        [
+          5.86,
+          -40
+        ],
+        [
+          5.995,
+          -40
+        ],
+        [
+          6,
+          -5
+        ],
+        [
+          7.9,
+          -4
+        ],
+        [
+          8.068,
+          2
+        ],
+        [
+          9.98,
+          2
+        ],
+        [
+          10.08,
+          -40
+        ],
+        [
+          10.44,
+          -40
+        ],
+        [
+          10.47,
+          -3
+        ],
+        [
+          11.305,
+          -3
+        ],
+        [
+          11.335,
+          -23
+        ],
+        [
+          11.4,
+          -23
+        ],
+        [
+          11.42,
+          -3
+        ],
+        [
+          13,
+          -3
+        ]
+      ],
+      "filters": "highpass=f=38"
+    },
+    {
+      "id": "aura_kai",
+      "file": "audio/sfx/elec_crackle__freesound_531421.mp3",
+      "at": 0,
+      "dur": 2.24,
+      "fadeIn": 0.3,
+      "fadeOut": 0.06,
+      "level": -27,
+      "pan": -0.45
+    },
+    {
+      "id": "aura_akane",
+      "file": "audio/sfx/elec_crackle__freesound_398274.mp3",
+      "at": 0,
+      "dur": 2.24,
+      "fadeIn": 0.5,
+      "fadeOut": 0.06,
+      "level": -31,
+      "pan": 0.45,
+      "rate": 0.85
+    },
+    {
+      "id": "open_clash",
+      "file": "audio/sfx/thunder_crack__freesound_616992.mp3",
+      "at": 0.2,
+      "trim": 0.9,
+      "dur": 1.3,
+      "fadeOut": 0.8,
+      "level": -15
+    },
+    {
+      "id": "clash_crack",
+      "file": "audio/sfx/elec_crackle__freesound_398274.mp3",
+      "at": 0.305,
+      "dur": 0.35,
+      "fadeOut": 0.25,
+      "filters": "highpass=f=250",
+      "level": -14
+    },
+    {
+      "id": "koiguchi_tick",
+      "file": "audio/sfx/katana_click__freesound_189209.mp3",
+      "at": 2.38,
+      "level": -21
+    },
+    {
+      "id": "koiguchi",
+      "file": "audio/sfx/katana_click__kenney_metalLatch.ogg",
+      "at": 2.395,
+      "level": -15
+    },
+    {
+      "id": "gleam_shing",
+      "file": "audio/sfx/sword_draw__freesound_529019.mp3",
+      "at": 2.58,
+      "dur": 1.2,
+      "fadeOut": 0.5,
+      "level": -21,
+      "pan": 0.15
+    },
+    {
+      "id": "eye_air",
+      "file": "audio/sfx/whoosh_fast__freesound_394877.mp3",
+      "at": 3.06,
+      "dur": 0.5,
+      "level": -25
+    },
+    {
+      "id": "charge",
+      "file": "audio/sfx/charge_riser__freesound_529020.mp3",
+      "at": 3.32,
+      "trim": 1.2,
+      "dur": 2.17,
+      "fadeIn": 0.25,
+      "level": -16,
+      "env": [
+        [
+          5.38,
+          0
+        ],
+        [
+          5.445,
+          -9
+        ]
+      ]
+    },
+    {
+      "id": "eye_zap",
+      "file": "audio/sfx/elec_crackle__freesound_531421.mp3",
+      "at": 3.34,
+      "dur": 0.55,
+      "fadeOut": 0.3,
+      "level": -17
+    },
+    {
+      "id": "eye_zap2",
+      "file": "audio/sfx/zap_dash__freesound_136542.mp3",
+      "at": 3.345,
+      "level": -19,
+      "pan": -0.2
+    },
+    {
+      "id": "cast_ice",
+      "file": "audio/sfx/crystal_form__freesound_691005.mp3",
+      "at": 3.85,
+      "level": -14
+    },
+    {
+      "id": "cast_grow",
+      "file": "audio/sfx/crystal_form__freesound_396447.mp3",
+      "at": 4.05,
+      "dur": 0.65,
+      "fadeOut": 0.3,
+      "level": -21,
+      "pan": 0.2
+    },
+    {
+      "id": "cast_snap",
+      "file": "audio/sfx/crystal_form__opengameart_icespells-coldsnap.wav",
+      "at": 4.07,
+      "dur": 1.1,
+      "fadeOut": 0.3,
+      "level": -17
+    },
+    {
+      "id": "launch_a",
+      "file": "audio/sfx/crystal_whoosh__freesound_249817.mp3",
+      "at": 4.17,
+      "level": -16,
+      "dur": 1.45,
+      "fadeOut": 0.5
+    },
+    {
+      "id": "launch_b",
+      "file": "audio/sfx/crystal_whoosh__freesound_709888.mp3",
+      "at": 4.2,
+      "level": -17,
+      "pan": -0.3
+    },
+    {
+      "id": "launch_c",
+      "file": "audio/sfx/crystal_whoosh__freesound_709888.mp3",
+      "at": 4.36,
+      "rate": 1.08,
+      "level": -18,
+      "pan": 0.35
+    },
+    {
+      "id": "volley_1",
+      "file": "audio/sfx/crystal_whoosh__freesound_715784.mp3",
+      "at": 4.5,
+      "level": -19,
+      "pan": 0.25
+    },
+    {
+      "id": "arrows",
+      "file": "audio/sfx/crystal_whoosh__freesound_394004.mp3",
+      "at": 4.55,
+      "dur": 0.9,
+      "fadeOut": 0.3,
+      "level": -24
+    },
+    {
+      "id": "volley_2",
+      "file": "audio/sfx/crystal_whoosh__freesound_715784.mp3",
+      "at": 4.66,
+      "rate": 0.94,
+      "level": -20,
+      "pan": -0.25
+    },
+    {
+      "id": "volley_3",
+      "file": "audio/sfx/crystal_whoosh__freesound_715784.mp3",
+      "at": 4.82,
+      "rate": 1.06,
+      "level": -20,
+      "pan": 0.1
+    },
+    {
+      "id": "whip_out",
+      "file": "audio/sfx/whoosh_fast__freesound_523230.mp3",
+      "at": 5.03,
+      "level": -19
+    },
+    {
+      "id": "suck_in",
+      "file": "audio/sfx/reverse_swell__freesound_790705.mp3",
+      "at": 5.12,
+      "trim": 1.7,
+      "dur": 0.74,
+      "level": -19
+    },
+    {
+      "id": "rev_cymbal",
+      "file": "audio/sfx/reverse_swell__freesound_774635.mp3",
+      "at": 5.16,
+      "trim": 2.2,
+      "dur": 0.68,
+      "level": -17,
+      "fadeOut": 0.03
+    },
+    {
+      "id": "dash_arc",
+      "file": "audio/sfx/elec_crackle__freesound_396240.mp3",
+      "at": 5.29,
+      "trim": 0.6,
+      "dur": 0.55,
+      "fadeOut": 0.3,
+      "level": -17,
+      "pan": 0.2
+    },
+    {
+      "id": "dash_zap",
+      "file": "audio/sfx/zap_dash__freesound_71851.mp3",
+      "at": 5.43,
+      "level": -12
+    },
+    {
+      "id": "thunder",
+      "file": "audio/sfx/thunder_crack__freesound_840628.mp3",
+      "at": 5.44,
+      "trim": 0.62,
+      "dur": 0.4,
+      "fadeOut": 0.15,
+      "level": -8
+    },
+    {
+      "id": "whip_pan",
+      "file": "audio/sfx/whoosh_fast__freesound_523230.mp3",
+      "at": 5.49,
+      "rate": 0.9,
+      "level": -14,
+      "pan": 0.4,
+      "dur": 0.36,
+      "fadeOut": 0.1
+    },
+    {
+      "id": "crys_break_a",
+      "file": "audio/sfx/glass_shatter__freesound_221528.mp3",
+      "at": 5.52,
+      "level": -14,
+      "pan": -0.15,
+      "dur": 0.3,
+      "fadeOut": 0.1
+    },
+    {
+      "id": "crys_break_b",
+      "file": "audio/sfx/glass_shatter__opengameart_iceshatters-LedasLuzta33.ogg",
+      "at": 5.56,
+      "level": -15,
+      "pan": 0.3,
+      "dur": 0.28,
+      "fadeOut": 0.1
+    },
+    {
+      "id": "crys_tinkle",
+      "file": "audio/sfx/shards_tinkle__freesound_336425.mp3",
+      "at": 5.66,
+      "trim": 1,
+      "dur": 0.18,
+      "fadeOut": 0.1,
+      "level": -23
+    },
+    {
+      "id": "impact_crunch",
+      "file": "audio/sfx/glass_shatter__freesound_719973.mp3",
+      "at": 5.975,
+      "level": -11
+    },
+    {
+      "id": "impact_boom",
+      "file": "audio/sfx/impact_big__freesound_816376.mp3",
+      "at": 6,
+      "dur": 1.95,
+      "fadeOut": 0.6,
+      "level": -6,
+      "env": [
+        [
+          6.27,
+          0
+        ],
+        [
+          6.32,
+          -10
+        ],
+        [
+          6.345,
+          -10
+        ],
+        [
+          6.4,
+          -3
+        ]
+      ]
+    },
+    {
+      "id": "impact_sub",
+      "file": "audio/sfx/sub_boom__freesound_212768.mp3",
+      "at": 6,
+      "dur": 1.2,
+      "fadeOut": 0.8,
+      "level": -15,
+      "env": [
+        [
+          6.27,
+          0
+        ],
+        [
+          6.33,
+          -20
+        ]
+      ]
+    },
+    {
+      "id": "impact_elec",
+      "file": "audio/sfx/elec_crackle__freesound_398274.mp3",
+      "at": 6,
+      "dur": 0.35,
+      "fadeOut": 0.08,
+      "level": -16
+    },
+    {
+      "id": "slash_air",
+      "file": "audio/sfx/whoosh_fast__freesound_523230.mp3",
+      "at": 6.28,
+      "level": -14
+    },
+    {
+      "id": "shatter_big",
+      "file": "audio/sfx/glass_shatter__freesound_453499.mp3",
+      "at": 6.29,
+      "trim": 0.95,
+      "dur": 1.569,
+      "fadeOut": 0.8,
+      "level": -10
+    },
+    {
+      "id": "slash_katana",
+      "file": "audio/sfx/sword_slash__freesound_215033.mp3",
+      "at": 6.31,
+      "level": -11,
+      "pan": -0.15
+    },
+    {
+      "id": "slash",
+      "file": "audio/sfx/sword_slash__freesound_441666.mp3",
+      "at": 6.32,
+      "level": -7
+    },
+    {
+      "id": "shatter_rain",
+      "file": "audio/sfx/glass_shatter__freesound_583065.mp3",
+      "at": 6.335,
+      "trim": 0.25,
+      "dur": 1.565,
+      "fadeOut": 0.6,
+      "level": -14,
+      "pan": 0.2
+    },
+    {
+      "id": "slash_zuba",
+      "file": "audio/sfx/sword_slash__freesound_370204.mp3",
+      "at": 6.35,
+      "level": -12,
+      "pan": 0.15
+    },
+    {
+      "id": "wave_boom",
+      "file": "audio/sfx/explosion__freesound_760509.mp3",
+      "at": 6.45,
+      "dur": 3.2,
+      "fadeOut": 2.4,
+      "level": -9,
+      "env": [
+        [
+          7.87,
+          0
+        ],
+        [
+          7.917,
+          -16
+        ],
+        [
+          9.247,
+          -30
+        ]
+      ]
+    },
+    {
+      "id": "wave_elec",
+      "file": "audio/sfx/elec_crackle__freesound_396470.mp3",
+      "at": 6.5,
+      "trim": 1,
+      "dur": 1.484,
+      "fadeOut": 1.2,
+      "level": -21,
+      "pan": -0.2
+    },
+    {
+      "id": "wave_rumble",
+      "file": "audio/sfx/rumble__freesound_222521.mp3",
+      "at": 6.55,
+      "dur": 2.824,
+      "fadeOut": 2.2,
+      "level": -15,
+      "env": [
+        [
+          7.87,
+          0
+        ],
+        [
+          7.917,
+          -15
+        ]
+      ]
+    },
+    {
+      "id": "debris_tail",
+      "file": "audio/sfx/debris__freesound_389303.mp3",
+      "at": 7,
+      "dur": 0.9,
+      "fadeOut": 0.8,
+      "level": -25
+    },
+    {
+      "id": "shards_fall",
+      "file": "audio/sfx/shards_tinkle__freesound_828101.mp3",
+      "at": 7,
+      "trim": 1.6,
+      "dur": 0.9,
+      "fadeOut": 0.6,
+      "level": -22
+    },
+    {
+      "id": "wave_cut",
+      "file": "audio/sfx/whoosh_fast__freesound_523230.mp3",
+      "at": 7,
+      "rate": 0.7,
+      "level": -16
+    },
+    {
+      "id": "debris_a",
+      "file": "audio/sfx/debris__freesound_829103.mp3",
+      "at": 7.06,
+      "level": -17,
+      "pan": -0.25,
+      "env": [
+        [
+          7.87,
+          0
+        ],
+        [
+          7.917,
+          -24
+        ]
+      ]
+    },
+    {
+      "id": "debris_b",
+      "file": "audio/sfx/debris__freesound_567249.mp3",
+      "at": 7.2,
+      "dur": 0.7,
+      "fadeOut": 0.6,
+      "level": -19,
+      "pan": 0.3
+    },
+    {
+      "id": "music_slowmo",
+      "file": "audio/sfx/music__opengameart_tadsamurai.wav",
+      "at": 7.825,
+      "trim": 9.54,
+      "dur": 2.675,
+      "level": -15,
+      "filters": "lowpass=f=1400,aecho=0.8:0.7:120|260:0.35|0.22",
+      "env": [
+        [
+          7.825,
+          -60
+        ],
+        [
+          7.942,
+          -4
+        ],
+        [
+          9.416,
+          -6
+        ],
+        [
+          9.9,
+          -14
+        ],
+        [
+          10.4,
+          -60
+        ]
+      ],
+      "rate": 0.85
+    },
+    {
+      "id": "sub_drone",
+      "file": "audio/sfx/drone__freesound_593785.mp3",
+      "at": 7.863,
+      "trim": 5,
+      "dur": 1.638,
+      "fadeIn": 0.4,
+      "fadeOut": 0.6,
+      "level": -30
+    },
+    {
+      "id": "slowmo_whoom",
+      "file": "audio/sfx/impact_big__freesound_222517.mp3",
+      "at": 7.9,
+      "rate": 0.6,
+      "dur": 0.97,
+      "fadeOut": 0.97,
+      "filters": "lowpass=f=900",
+      "level": -17
+    },
+    {
+      "id": "slowmo_glitter",
+      "file": "audio/sfx/shards_tinkle__freesound_828101.mp3",
+      "at": 7.9,
+      "trim": 2.5,
+      "rate": 0.62,
+      "dur": 1.414,
+      "fadeIn": 0.2,
+      "fadeOut": 0.9,
+      "filters": "aecho=0.8:0.6:90|180:0.3|0.2",
+      "level": -22
+    },
+    {
+      "id": "slowmo_sparkle",
+      "file": "audio/sfx/shards_tinkle__freesound_611674.mp3",
+      "at": 8.153,
+      "rate": 0.8,
+      "dur": 1.598,
+      "fadeIn": 0.5,
+      "fadeOut": 1,
+      "level": -21,
+      "pan": 0.2
+    },
+    {
+      "id": "sheath_slide_slow",
+      "file": "audio/sfx/sword_draw__freesound_395364.mp3",
+      "at": 8.321,
+      "trim": 0.2,
+      "rate": 0.62,
+      "dur": 0.632,
+      "fadeIn": 0.2,
+      "fadeOut": 0.4,
+      "level": -18
+    },
+    {
+      "id": "sheath",
+      "file": "audio/sfx/sheath_click__oga_seax-sheathe-04.wav",
+      "at": 9.399,
+      "level": -15
+    },
+    {
+      "id": "sheath_click",
+      "file": "audio/sfx/sheath_click__freesound_56264.mp3",
+      "at": 9.53,
+      "level": -16
+    },
+    {
+      "id": "chin",
+      "file": "audio/sfx/katana_click__kenney_metalLatch.ogg",
+      "at": 9.94,
+      "level": -12
+    },
+    {
+      "id": "music_b",
+      "file": "audio/sfx/music__opengameart_tadsamurai.wav",
+      "at": 10.21,
+      "trim": 12.475,
+      "dur": 3.09,
+      "fadeIn": 0.02,
+      "level": -15,
+      "env": [
+        [
+          10.21,
+          -60
+        ],
+        [
+          10.4,
+          -60
+        ],
+        [
+          10.445,
+          5
+        ],
+        [
+          11.305,
+          5
+        ],
+        [
+          11.335,
+          -15
+        ],
+        [
+          11.4,
+          -15
+        ],
+        [
+          11.43,
+          5
+        ],
+        [
+          13,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "pre_burst",
+      "file": "audio/sfx/reverse_swell__freesound_181889.mp3",
+      "at": 10.31,
+      "trim": 1.49,
+      "dur": 0.14,
+      "level": -26
+    },
+    {
+      "id": "sky_hit",
+      "file": "audio/sfx/impact_big__freesound_222517.mp3",
+      "at": 10.44,
+      "dur": 2.26,
+      "fadeOut": 1,
+      "level": -13,
+      "env": [
+        [
+          11.05,
+          0
+        ],
+        [
+          11.305,
+          -5.5
+        ],
+        [
+          11.335,
+          -26
+        ],
+        [
+          11.4,
+          -28
+        ],
+        [
+          11.42,
+          -8
+        ]
+      ]
+    },
+    {
+      "id": "sky_crash",
+      "file": "audio/sfx/glass_shatter__freesound_583065.mp3",
+      "at": 10.45,
+      "dur": 2.6,
+      "fadeOut": 1,
+      "level": -8,
+      "pan": -0.2,
+      "trim": 0.31,
+      "env": [
+        [
+          11.305,
+          0
+        ],
+        [
+          11.335,
+          -20
+        ],
+        [
+          11.4,
+          -20
+        ],
+        [
+          11.42,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "sky_thunder",
+      "file": "audio/sfx/thunder_crack__freesound_616992.mp3",
+      "at": 10.45,
+      "trim": 1,
+      "dur": 2.25,
+      "fadeOut": 1.2,
+      "level": -10,
+      "env": [
+        [
+          11.05,
+          0
+        ],
+        [
+          11.305,
+          -5.5
+        ],
+        [
+          11.335,
+          -26
+        ],
+        [
+          11.4,
+          -28
+        ],
+        [
+          11.42,
+          -8
+        ]
+      ]
+    },
+    {
+      "id": "sky_boom",
+      "file": "audio/sfx/explosion__freesound_259300.mp3",
+      "at": 10.46,
+      "dur": 2.24,
+      "fadeOut": 1,
+      "level": -8,
+      "env": [
+        [
+          11.05,
+          0
+        ],
+        [
+          11.305,
+          -5.5
+        ],
+        [
+          11.335,
+          -26
+        ],
+        [
+          11.4,
+          -28
+        ],
+        [
+          11.42,
+          -8
+        ]
+      ]
+    },
+    {
+      "id": "sky_rumble",
+      "file": "audio/sfx/rumble__freesound_514381.mp3",
+      "at": 10.5,
+      "trim": 10,
+      "dur": 2.2,
+      "fadeOut": 1,
+      "level": -20,
+      "env": [
+        [
+          11.305,
+          0
+        ],
+        [
+          11.335,
+          -20
+        ],
+        [
+          11.4,
+          -20
+        ],
+        [
+          11.42,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "sky_elec",
+      "file": "audio/sfx/elec_crackle__freesound_396470.mp3",
+      "at": 10.5,
+      "trim": 4,
+      "dur": 2.2,
+      "fadeOut": 1.2,
+      "level": -23,
+      "pan": 0.25,
+      "env": [
+        [
+          11.305,
+          0
+        ],
+        [
+          11.335,
+          -20
+        ],
+        [
+          11.4,
+          -20
+        ],
+        [
+          11.42,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "title_swish",
+      "file": "audio/sfx/whoosh_fast__opengameart_swish-9.wav",
+      "at": 11.3,
+      "level": -19
+    },
+    {
+      "id": "title_shing",
+      "file": "audio/sfx/sword_draw__freesound_320521.mp3",
+      "at": 11.35,
+      "dur": 1.35,
+      "fadeOut": 0.6,
+      "level": -13
+    },
+    {
+      "id": "title_taiko",
+      "file": "audio/sfx/taiko__freesound_95624.mp3",
+      "at": 11.37,
+      "level": -7,
+      "trim": 6.83,
+      "dur": 1.3,
+      "fadeOut": 0.8
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ISSEN 一閃</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #out { position: absolute; inset: 0; margin: auto; width: 100vw; height: 56.25vw; max-height: 100vh; max-width: 177.78vh; display: block; }
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; display: flex; gap: 12px; align-items: center; padding: 10px 16px;
+        background: linear-gradient(transparent, rgba(0,0,0,.6)); font: 12px/1 ui-monospace, monospace; color: #cfd6ff; opacity: .15; transition: opacity .3s; }
+  #ui:hover { opacity: 1; }
+  #ui button { background: none; border: 1px solid #556; color: inherit; width: 34px; height: 26px; border-radius: 4px; cursor: pointer; }
+  #scrub { flex: 1; }
+</style>
+</head>
+<body>
+<canvas id="out"></canvas>
+<div id="ui" hidden><button id="play">❚❚</button><input id="scrub" type="range" min="0" value="0"><span id="label"></span></div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

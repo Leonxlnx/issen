@@ -1,0 +1,17 @@
+{
+  "name": "issen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ISSEN — a procedural anime sword-fight VFX short, drawn entirely in JavaScript (Canvas2D + WebGL2) and rendered frame-by-frame to video.",
+  "scripts": {
+    "serve": "node render/server.mjs",
+    "render": "node render/render.mjs",
+    "stills": "node render/render.mjs --stills",
+    "mix": "node audio/mix.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
+}
